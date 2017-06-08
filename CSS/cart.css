@@ -1,0 +1,345 @@
+body{
+    background-color: #f5f5f5;
+}
+
+.jd_topBar{
+    position: static;
+}
+
+.jd_remind_info{
+    height: 35px;
+    width: 100%;
+    background-color: #fff;
+    line-height: 33px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.jd_remind_info .jd_save_info{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    color: #666;
+    font-size: 13px;
+    margin-left: 23px;
+}
+
+.jd_remind_info .jd_save_info::before{
+    content: " ";
+    width: 18px;
+    height: 18px;
+    background: url("../images/safe_icon.png") no-repeat;
+    background-size:18px 18px;
+    position: absolute;
+    top: 8px;
+    left: -23px;
+}
+
+.jd_shop{
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.jd_shop .jd_shop_head{
+    height: 35px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+}
+
+
+.jd_check_box{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url("../Images/shop-icon.png");
+    background-size: 50px 100px;
+    position: absolute;
+}
+
+.jd_check_box[checked]{
+    background-position: -25px 0;
+}
+
+.jd_shop .jd_shop_head .jd_check_box{
+    top:8px;
+    left: 10px;
+}
+
+.jd_shop .jd_shop_head .jd_shop_head_left{
+    margin-left: 35px;
+    float: left;
+    height: 100%;
+}
+
+.jd_shop .jd_shop_head .jd_shop_head_left .jd_logo_icon{
+    background: url("../Images/buy-logo.png");
+    background-size: 15px 13px;
+    display: block;
+    width: 15px;
+    height: 13px;
+    margin-top: 10px;
+    float: left;
+}
+
+.jd_shop .jd_shop_head .jd_shop_head_left .left_shop_name{
+    float: left;
+    line-height: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.jd_shop .jd_shop_head .shop_buy_info{
+    float: right;
+    font-size: 12px;
+    color: #d8505c;
+    margin-top: 10px;
+    line-height: 15px;
+    margin-right: 10px;
+}
+
+.jd_shop_content .product_item{
+    position: relative;
+    /*height: 100px;*/
+    border-bottom: 1px solid #e0e0e0;
+    /*background-color: red;*/
+}
+
+.jd_shop_content .product_item .jd_check_box{
+    top: 20px;
+    left: 10px;
+}
+
+.jd_shop_content .product_info{
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*width: 100%;*/
+    /*background-color: red;*/
+}
+
+.jd_shop_content .product_info .product_img{
+    float: left;
+    /*display: inline-block;*/
+    width: 80px;
+    height: 80px;
+    border: 1px solid #f0f0f0;
+    margin-right: 10px;
+}
+
+.jd_shop_content .product_info .product_img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.jd_shop_content .product_info .product_info_right{
+    /*margin-left: 120px;*/
+    /*padding-top: 10px;*/
+    padding-left: 10px;
+    overflow: hidden;
+    /*float: left;*/
+}
+
+.jd_shop_content .product_info .product_info_right .description{
+    color: #666;
+    font-size: 13px;
+    line-height: 15px;
+    height: 30px;
+    text-overflow: ellipsis;
+    padding-bottom: 5px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.jd_shop_content .product_info .product_info_right .price{
+    color: #666;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.jd_shop_content .product_info .product_info_right .bottom{
+      /*float: left;*/
+      height: 24px;
+  }
+
+.jd_shop_content .product_info .product_info_right .bottom .left{
+    float: left;
+}
+
+.jd_shop_content .product_info .product_info_right .bottom .jian{
+    float: left;
+    width: 32px;
+    height: 24px;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+}
+
+.jd_shop_content .product_info .product_info_right .bottom input{
+    float: left;
+    /*display: block;*/
+    width: 32px;
+    height: 24px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.jd_shop_content .product_info .product_info_right .bottom .jia{
+    float: left;
+    width: 32px;
+    height: 24px;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+}
+
+.jd_shop_content .product_info .product_info_right .bottom .right{
+    float: right;
+    margin-right: 10px;
+}
+
+.jd_shop_content .product_info .product_info_right .bottom .right .del_top{
+    width: 20px;
+    height: 5px;
+    background: url("../images/delete_up.png");
+    background-size: 20px 5px;
+    display: block;
+    margin-left: -1px;
+}
+
+.jd_shop_content .product_info .product_info_right .bottom .right .del_bottom{
+    width: 18px;
+    height: 18px;
+    background: url("../images/delete_down.png");
+    background-size: 18px 18px;
+    display: block;
+    margin-top: -3px;
+}
+
+
+.jd_shop_count{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 57px;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    color: #fff;
+    padding-left: 35px;
+    z-index: 999;
+}
+
+.jd_shop_count .jd_check_box{
+    left: 10px;
+    top: 18px;
+}
+
+.jd_shop_count .check_all{
+    float: left;
+    height: 100%;
+    line-height: 57px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.jd_shop_count .total{
+    line-height: 32px;
+    font-size: 16px;
+}
+
+ .cut_price {
+    opacity: .8;
+    font-size: 8px;
+}
+
+.jd_shop_count .jd_payment{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 105px;
+    background-color: #d8505c;
+    color: #fff;
+    font-size: 18px;
+    line-height: 57px;
+    text-align: center;
+}
+
+.alert_cover{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    z-index: 1001;
+}
+
+.alert_cover .alert_info{
+    /*position: absolute;*/
+    margin: 20px auto;
+    /*left: -50%;*/
+    top: 20px;
+    width: 80%;
+    /*height: 100px;*/
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.alert_cover .alert_info .title{
+    line-height: 74px;
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    margin: 0 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.alert_cover .alert_info .action_btn{
+    margin: 0 20px;
+    padding: 10px 0;
+}
+
+.alert_cover .alert_info .action_btn .cancel{
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    font-size: 16px;
+    width: 45%;
+    text-align: center;
+    color: #000;
+}
+
+
+.alert_cover .alert_info .action_btn .submit{
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 4px;
+    border: 1px solid red;
+    font-size: 16px;
+    width: 45%;
+    text-align: center;
+    color: #fff;
+    margin-left: 10%;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
